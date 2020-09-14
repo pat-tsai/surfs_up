@@ -10,7 +10,7 @@ The purpose of this analysis was to connect and retrieve datasets from SQLite da
 Shown above are the summary statistics for June (left) and December (right). 
 - 1. Conventionally, June is typically one of the hottest months, whereas December is typically among the coldest. The summary statistics summary follows this same trend, with June having a mean temperature of about 75 degrees, and December having around 71 degrees. These temperature would be nice to enjoy ice cream/go surfing.
 - 2. June temperatures have a standard deviation of 3.26, whereas December is 3.75. This reveals larger fluctuations in December temperatures, reflected by the larger range from min to max December temperatures (56 minimum, 83 maximum)
-- 3. There are 1,700 non-null datapoints for June, but there are only 1,517 for December (missing half a year of data). This is likely due to the timing of gathering data, and since December is in the 2nd half of the year the data may not have been available when this dataset was made. Including the missing 183 days would likely alter the December statistics, possibly lowering the standard deviation if the temperatures following past year's trends.  
+- 3. There are 1,700 non-null datapoints for June, but there are only 1,517 for December (missing half a year of data). This is likely due to the timing of gathering data, and since December is in the 2nd half of the year the data may not have been available when this dataset was made. Including the missing 183 days would likely alter the December statistics, possibly lowering the standard deviation if the temperatures follows the trends in previous years.  
 
 # Summary
 Based on the above analysis, additional queries that could be performed for further analysis includes:
