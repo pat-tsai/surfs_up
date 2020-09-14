@@ -6,6 +6,7 @@ The purpose of this analysis was to connect and retrieve datasets from SQLite da
 
 # Results:
 ![ScreenShots](/june_december_summary.png)
+
 Shown above are the summary statistics for June (left) and December (right). 
 - 1. Conventionally, June is typically one of the hottest months, whereas December is typically among the coldest. The summary statistics summary follows this same trend, with June having a mean temperature of about 75 degrees, and December having around 71 degrees. These temperature would be nice to enjoy ice cream/go surfing.
 - 2. June temperatures have a standard deviation of 3.26, whereas December is 3.75. This reveals larger fluctuations in December temperatures, reflected by the larger range from min to max December temperatures (56 minimum, 83 maximum)
